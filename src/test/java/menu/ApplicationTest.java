@@ -19,6 +19,10 @@ import org.mockito.MockedStatic;
 
 public class ApplicationTest extends NsTest {
 
+
+    private static final int ABC = 3;
+
+
     private static final Duration RANDOM_TEST_TIMEOUT = Duration.ofSeconds(10L);
 
     @DisplayName("전체 기능 테스트")
